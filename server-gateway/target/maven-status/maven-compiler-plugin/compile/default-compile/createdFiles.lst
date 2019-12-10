@@ -1,5 +1,0 @@
-com\lb\server_gateway\jwt\JwtTokenUtil.class
-com\lb\server_gateway\jwt\JwtProperties.class
-com\lb\server_gateway\factory\BeanFactory.class
-com\lb\server_gateway\filter\TokenFilter.class
-com\lb\server_gateway\ServerGatewayApplication.class
