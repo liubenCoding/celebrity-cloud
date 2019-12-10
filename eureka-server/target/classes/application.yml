@@ -1,0 +1,20 @@
+server:
+    port: 9001
+eureka:
+  instance: localhost
+  client:
+    register-with-eureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka/
+spring:
+  freemarker:
+    prefer-file-system-access: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
